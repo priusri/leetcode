@@ -2,7 +2,7 @@ class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
         int n=nums.size();
-        int maxVal=0;
+        
        vector <int> freq(n+2 , 0);
 
        for(int i=0 ; i<n ;i++ ){
